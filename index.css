@@ -1,0 +1,80 @@
+.height-responsive {
+    width: auto;
+    display:block;
+    height: 100%;
+}
+
+html {
+
+    min-height: 100%;
+    margin: 0;
+}
+body {
+    min-height: 100%;
+    margin: 0;
+}
+
+#textBox{
+    width:75%;
+}
+
+@media only screen and (max-width:650px){
+    #textBox{
+        width:25%;
+    }
+}
+
+#text{
+   padding: 10%, 10%, 10%, 10%;
+   border: 30px;
+
+}
+
+#img{
+    float:left;
+    height: auto; 
+    max-width: 20%;
+   margin: 10px;
+}
+
+#textWrapper{
+   margin: 25%, 25%, 25%, 25%;
+
+}
+
+#title{
+    color: lightskyblue
+}
+
+
+#nameHeader{
+background-color: lightskyblue;
+color: white;
+size: 40px;
+}
+
+#head{
+    background-image: "http://blog.hostbaby.com/wp-content/uploads/2013/07/scuffedstatic_dark_1920x1234.jpg";
+}
+
+#placeHolders{
+    float: left;
+margin-top:20px;
+margin-bottom:20px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+#body{
+        background-image: url("https://lh3.googleusercontent.com/9EVb789UPCQAOnYB9YiwTW7Rs79mReFheFtRPuuB-dMvKeyMOZBFG_MsxgZca6Gn8YKhJhdL99O3yp0dH_DO4eICwF-upNw1XZ4IrPdB-sVAArEWw0WVxU9I-EaQvNo2Fqpc1lvfvUqDHQUX_hHq8TNfs8wH1hA55U9v7pyK7dsE-B3-1oAjonXW788EQzUs0GzaqR6oe21jX8BUKSzLA9ENmRud-dke3whmERt2qgtqIXL5tZOpGjPnnaIW3MJWltIan_SLvoTUY-z61KZF4yfMOuWmzxwMgGlBf97iqwIlX8AbxmftZO9eR-HgPAALoBZZ0yRbjRa0Vmn60umn1wQt1xCrDqmWThkRz63lXb6gwkkmNUMcO2aqaNXHRiS6bWJY0B1yZOu6bNxzZ0hgkPVXspCMknbCm3KVc1IwUpCJIKPt4OdalnT0QHfcJw8Ggiv-KlUxp2jLz9C4rJjqFgYTGy5DJZGIB60l49ATsWxYGANXq30dl-SlE95NfXXy3WhyS82C3Isip8X2nEY3q1f4cCIcfDZ_MX2oluFIEvlQnWctzxB_BOTFj6905a_xF98IyDNZAPf-KvZ-n0dB8HqtWBIdqoaWqwZ8AlJL9PHGOUgRxg-65rk2I4NcjlWZkdmMkVhZlwx1ubJ4Ln9h9sL29lMlxPFeJl-Y0K7RMYPhkcEEMLzf8oN-rU7_=s400-no?authuser=0");
+        background-repeat: repeat;
+        height: auto;
+        width: auto;
+}
+
+#footer {
+    max-width: auto;
+    height: auto;
+    background-color: powderblue;
+    align-content: center;
+  }
